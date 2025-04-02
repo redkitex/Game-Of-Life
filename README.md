@@ -7,4 +7,4 @@ By default it generates a random soup which runs indefinitely...
 ![Screenshot 2025-04-02 131641](https://github.com/user-attachments/assets/302af03e-1a24-4469-b9d1-3b36c40ae0fe)
 
 ...but it can be adjusted to take a seed and run it instead. 
-Some seeds included here are the beacon, glider, toad, pulsar, and Gospar glider gun.
+Some seeds included here are the beacon, glider, toad, pulsar, and Gosper glider gun.
