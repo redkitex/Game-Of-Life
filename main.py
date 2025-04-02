@@ -29,7 +29,6 @@ def add_border_to_state(state):
 
     return state_with_border
 
-
 def sum_neighbours(state_with_border, x, y):
     # Corrects the values of x and y for the border of 0s
     x += 1
@@ -94,9 +93,8 @@ height = 30
 initial_state = random_state(width, height)
 
 # ...Or a seed state can be loaded from a text file (Uncomment the below lines)
+# dir = "" # TODO : Add the directory of your file
 # initial_state = load_state_from_seed_file("pulsar.txt")
-# dir = "" # TODO : Add your directory
-
 
 render(initial_state)
 new_state = next_state(initial_state)
